@@ -17,9 +17,9 @@
         "dist/currency-mask/currency-mask",
         "dist/currency-mask"
       ],
-      "ng2-currency-mask": [
-        "dist/ng2-currency-mask/ng2-currency-mask",
-        "dist/ng2-currency-mask"
+      "ng-currency-mask": [
+        "dist/ng-currency-mask/ng-currency-mask",
+        "dist/ng-currency-mask"
       ]
     }
   },

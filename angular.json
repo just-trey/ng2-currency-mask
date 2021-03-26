@@ -23,38 +23,38 @@
         }
       }
     },
-    "ng2-currency-mask": {
+    "ng-currency-mask": {
       "projectType": "library",
-      "root": "projects/ng2-currency-mask",
-      "sourceRoot": "projects/ng2-currency-mask/src",
+      "root": "projects/ng-currency-mask",
+      "sourceRoot": "projects/ng-currency-mask/src",
       "prefix": "lib",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:ng-packagr",
           "options": {
-            "tsConfig": "projects/ng2-currency-mask/tsconfig.lib.json",
-            "project": "projects/ng2-currency-mask/ng-package.json"
+            "tsConfig": "projects/ng-currency-mask/tsconfig.lib.json",
+            "project": "projects/ng-currency-mask/ng-package.json"
           },
           "configurations": {
             "production": {
-              "tsConfig": "projects/ng2-currency-mask/tsconfig.lib.prod.json"
+              "tsConfig": "projects/ng-currency-mask/tsconfig.lib.prod.json"
             }
           }
         },
         "test": {
           "builder": "@angular-devkit/build-angular:karma",
           "options": {
-            "main": "projects/ng2-currency-mask/src/test.ts",
-            "tsConfig": "projects/ng2-currency-mask/tsconfig.spec.json",
-            "karmaConfig": "projects/ng2-currency-mask/karma.conf.js"
+            "main": "projects/ng-currency-mask/src/test.ts",
+            "tsConfig": "projects/ng-currency-mask/tsconfig.spec.json",
+            "karmaConfig": "projects/ng-currency-mask/karma.conf.js"
           }
         },
         "lint": {
           "builder": "@angular-devkit/build-angular:tslint",
           "options": {
             "tsConfig": [
-              "projects/ng2-currency-mask/tsconfig.lib.json",
-              "projects/ng2-currency-mask/tsconfig.spec.json"
+              "projects/ng-currency-mask/tsconfig.lib.json",
+              "projects/ng-currency-mask/tsconfig.spec.json"
             ],
             "exclude": ["**/node_modules/**"]
           }
